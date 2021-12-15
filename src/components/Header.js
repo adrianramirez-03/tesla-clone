@@ -9,7 +9,6 @@ function Header() {
     const [burgerStatus, setBrugerStatus] = useState(false);  //menu bar is closed hence the false paramter,
                                                             //if we click the menu, onClick sets the burgerStatus to true, which shows the menu
                                                             //if we click the x in menu, onClick sets the burgerStatus to false, which closes the menu
-
     const cars = useSelector(selectCars)
     return (
         <Container>
